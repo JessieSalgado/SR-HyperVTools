@@ -24,7 +24,7 @@ GUID = '7cefc86a-2735-415b-b48f-95eb2dab6633'
 Author = 'Jessie Salgado'
 
 # Company or vendor of this module
-CompanyName = 'Sam Houston State University'
+CompanyName = 'Unknown'
 
 # Copyright statement for this module
 Copyright = '(c) Jessie Salgado. All rights reserved.'
