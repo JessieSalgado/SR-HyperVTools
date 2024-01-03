@@ -12,7 +12,7 @@
 RootModule = 'SR-HyperVTools.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.2.1'
+ModuleVersion = '1.0.2.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -69,7 +69,7 @@ PowerShellVersion = '5.1'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = 'New-GPUEnabledVM'
+FunctionsToExport = 'New-GPUEnabledVM','Add-VMGpuPartitionAdapterFiles'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = '*'
@@ -88,7 +88,7 @@ AliasesToExport = '*'
 
 # List of all files packaged with this module
 FileList = 'Public\New-GPUEnabledVM.ps1', 
-               'Private\Add-VMGpuPartitionAdapterFiles.ps1', 
+               'Public\Add-VMGpuPartitionAdapterFiles.ps1', 
                'Private\autounattend.xml', 'Private\ConcatenateVhdPath.ps1', 
                'Private\Convert-WindowsImage.ps1', 'Private\Dismount-ISO.ps1', 
                'Private\Get-VMGpuPartitionAdapterFriendlyName.ps1', 
